@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/system_engineering/system_engineering.egg-info
+writing ../../build/system_engineering/system_engineering.egg-info/PKG-INFO
+writing dependency_links to ../../build/system_engineering/system_engineering.egg-info/dependency_links.txt
+writing entry points to ../../build/system_engineering/system_engineering.egg-info/entry_points.txt
+writing requirements to ../../build/system_engineering/system_engineering.egg-info/requires.txt
+writing top-level names to ../../build/system_engineering/system_engineering.egg-info/top_level.txt
+writing manifest file '../../build/system_engineering/system_engineering.egg-info/SOURCES.txt'
+reading manifest file '../../build/system_engineering/system_engineering.egg-info/SOURCES.txt'
+writing manifest file '../../build/system_engineering/system_engineering.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/teja/hyperhorizon_ws/build/system_engineering/build
+creating /home/teja/hyperhorizon_ws/build/system_engineering/build/lib
+creating /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering
+copying system_engineering/command_publisher.py -> /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering
+copying system_engineering/__init__.py -> /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering
+copying system_engineering/system_monitor.py -> /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering
+copying system_engineering/command_processor.py -> /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering
+running install
+running install_lib
+creating /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering
+copying /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering/command_publisher.py -> /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering
+copying /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering/__init__.py -> /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering
+copying /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering/system_monitor.py -> /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering
+copying /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering/command_processor.py -> /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering
+byte-compiling /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering/command_publisher.py to command_publisher.cpython-310.pyc
+byte-compiling /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering/system_monitor.py to system_monitor.cpython-310.pyc
+byte-compiling /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering/command_processor.py to command_processor.cpython-310.pyc
+running install_data
+creating /home/teja/hyperhorizon_ws/install/system_engineering/share/ament_index
+creating /home/teja/hyperhorizon_ws/install/system_engineering/share/ament_index/resource_index
+creating /home/teja/hyperhorizon_ws/install/system_engineering/share/ament_index/resource_index/packages
+copying resource/system_engineering -> /home/teja/hyperhorizon_ws/install/system_engineering/share/ament_index/resource_index/packages
+copying package.xml -> /home/teja/hyperhorizon_ws/install/system_engineering/share/system_engineering
+running install_egg_info
+Copying ../../build/system_engineering/system_engineering.egg-info to /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering-0.0.0-py3.10.egg-info
+running install_scripts
+Installing system_monitor script to /home/teja/hyperhorizon_ws/install/system_engineering/lib/system_engineering
+writing list of installed files to '/home/teja/hyperhorizon_ws/build/system_engineering/install.log'

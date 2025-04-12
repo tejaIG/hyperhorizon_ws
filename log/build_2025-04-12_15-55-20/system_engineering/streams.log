@@ -1,0 +1,29 @@
+[2.571s] Invoking command in '/home/teja/hyperhorizon_ws/src/system_engineering': PYTHONPATH=/home/teja/hyperhorizon_ws/build/system_engineering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/system_engineering build --build-base /home/teja/hyperhorizon_ws/build/system_engineering/build install --record /home/teja/hyperhorizon_ws/build/system_engineering/install.log --single-version-externally-managed install_data
+[3.473s] running egg_info
+[3.536s] writing ../../build/system_engineering/system_engineering.egg-info/PKG-INFO
+[3.536s] writing dependency_links to ../../build/system_engineering/system_engineering.egg-info/dependency_links.txt
+[3.537s] writing entry points to ../../build/system_engineering/system_engineering.egg-info/entry_points.txt
+[3.537s] writing requirements to ../../build/system_engineering/system_engineering.egg-info/requires.txt
+[3.537s] writing top-level names to ../../build/system_engineering/system_engineering.egg-info/top_level.txt
+[3.617s] reading manifest file '../../build/system_engineering/system_engineering.egg-info/SOURCES.txt'
+[3.619s] writing manifest file '../../build/system_engineering/system_engineering.egg-info/SOURCES.txt'
+[3.619s] running build
+[3.619s] running build_py
+[3.619s] copying system_engineering/command_publisher.py -> /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering
+[3.620s] copying system_engineering/command_processor.py -> /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering
+[3.620s] running install
+[3.635s] running install_lib
+[3.678s] copying /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering/command_publisher.py -> /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering
+[3.679s] copying /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering/command_processor.py -> /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering
+[3.681s] byte-compiling /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering/command_publisher.py to command_publisher.cpython-310.pyc
+[3.683s] byte-compiling /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering/command_processor.py to command_processor.cpython-310.pyc
+[3.684s] running install_data
+[3.684s] running install_egg_info
+[3.722s] removing '/home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering-0.0.0-py3.10.egg-info' (and everything under it)
+[3.725s] Copying ../../build/system_engineering/system_engineering.egg-info to /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering-0.0.0-py3.10.egg-info
+[3.728s] running install_scripts
+[3.874s] Installing command_processor script to /home/teja/hyperhorizon_ws/install/system_engineering/lib/system_engineering
+[3.875s] Installing command_publisher script to /home/teja/hyperhorizon_ws/install/system_engineering/lib/system_engineering
+[3.876s] Installing system_monitor script to /home/teja/hyperhorizon_ws/install/system_engineering/lib/system_engineering
+[3.877s] writing list of installed files to '/home/teja/hyperhorizon_ws/build/system_engineering/install.log'
+[4.004s] Invoked command in '/home/teja/hyperhorizon_ws/src/system_engineering' returned '0': PYTHONPATH=/home/teja/hyperhorizon_ws/build/system_engineering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/system_engineering build --build-base /home/teja/hyperhorizon_ws/build/system_engineering/build install --record /home/teja/hyperhorizon_ws/build/system_engineering/install.log --single-version-externally-managed install_data

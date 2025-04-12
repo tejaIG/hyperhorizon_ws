@@ -1,0 +1,4 @@
+[console_scripts]
+command_processor = system_engineering.command_processor:main
+command_publisher = system_engineering.command_publisher:main
+system_monitor = system_engineering.system_monitor:main

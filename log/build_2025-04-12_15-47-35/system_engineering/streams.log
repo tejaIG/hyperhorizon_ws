@@ -1,0 +1,43 @@
+[1.979s] Invoking command in '/home/teja/hyperhorizon_ws/src/system_engineering': PYTHONPATH=/home/teja/hyperhorizon_ws/build/system_engineering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/system_engineering build --build-base /home/teja/hyperhorizon_ws/build/system_engineering/build install --record /home/teja/hyperhorizon_ws/build/system_engineering/install.log --single-version-externally-managed install_data
+[2.416s] running egg_info
+[2.418s] creating ../../build/system_engineering/system_engineering.egg-info
+[2.432s] writing ../../build/system_engineering/system_engineering.egg-info/PKG-INFO
+[2.432s] writing dependency_links to ../../build/system_engineering/system_engineering.egg-info/dependency_links.txt
+[2.432s] writing entry points to ../../build/system_engineering/system_engineering.egg-info/entry_points.txt
+[2.433s] writing requirements to ../../build/system_engineering/system_engineering.egg-info/requires.txt
+[2.433s] writing top-level names to ../../build/system_engineering/system_engineering.egg-info/top_level.txt
+[2.434s] writing manifest file '../../build/system_engineering/system_engineering.egg-info/SOURCES.txt'
+[2.470s] reading manifest file '../../build/system_engineering/system_engineering.egg-info/SOURCES.txt'
+[2.471s] writing manifest file '../../build/system_engineering/system_engineering.egg-info/SOURCES.txt'
+[2.471s] running build
+[2.472s] running build_py
+[2.472s] creating /home/teja/hyperhorizon_ws/build/system_engineering/build
+[2.472s] creating /home/teja/hyperhorizon_ws/build/system_engineering/build/lib
+[2.472s] creating /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering
+[2.472s] copying system_engineering/command_publisher.py -> /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering
+[2.472s] copying system_engineering/__init__.py -> /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering
+[2.473s] copying system_engineering/system_monitor.py -> /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering
+[2.473s] copying system_engineering/command_processor.py -> /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering
+[2.473s] running install
+[2.480s] running install_lib
+[2.494s] creating /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering
+[2.495s] copying /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering/command_publisher.py -> /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering
+[2.495s] copying /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering/__init__.py -> /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering
+[2.495s] copying /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering/system_monitor.py -> /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering
+[2.495s] copying /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering/command_processor.py -> /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering
+[2.496s] byte-compiling /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering/command_publisher.py to command_publisher.cpython-310.pyc
+[2.496s] byte-compiling /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering/__init__.py to __init__.cpython-310.pyc
+[2.496s] byte-compiling /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering/system_monitor.py to system_monitor.cpython-310.pyc
+[2.497s] byte-compiling /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering/command_processor.py to command_processor.cpython-310.pyc
+[2.497s] running install_data
+[2.497s] creating /home/teja/hyperhorizon_ws/install/system_engineering/share/ament_index
+[2.497s] creating /home/teja/hyperhorizon_ws/install/system_engineering/share/ament_index/resource_index
+[2.498s] creating /home/teja/hyperhorizon_ws/install/system_engineering/share/ament_index/resource_index/packages
+[2.498s] copying resource/system_engineering -> /home/teja/hyperhorizon_ws/install/system_engineering/share/ament_index/resource_index/packages
+[2.498s] copying package.xml -> /home/teja/hyperhorizon_ws/install/system_engineering/share/system_engineering
+[2.498s] running install_egg_info
+[2.514s] Copying ../../build/system_engineering/system_engineering.egg-info to /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering-0.0.0-py3.10.egg-info
+[2.515s] running install_scripts
+[2.603s] Installing system_monitor script to /home/teja/hyperhorizon_ws/install/system_engineering/lib/system_engineering
+[2.604s] writing list of installed files to '/home/teja/hyperhorizon_ws/build/system_engineering/install.log'
+[2.697s] Invoked command in '/home/teja/hyperhorizon_ws/src/system_engineering' returned '0': PYTHONPATH=/home/teja/hyperhorizon_ws/build/system_engineering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/system_engineering build --build-base /home/teja/hyperhorizon_ws/build/system_engineering/build install --record /home/teja/hyperhorizon_ws/build/system_engineering/install.log --single-version-externally-managed install_data

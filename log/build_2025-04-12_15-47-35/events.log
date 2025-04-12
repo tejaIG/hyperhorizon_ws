@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000723] (system_engineering) JobQueued: {'identifier': 'system_engineering', 'dependencies': OrderedDict()}
+[0.001077] (system_engineering) JobStarted: {'identifier': 'system_engineering'}
+[0.099700] (-) TimerEvent: {}
+[0.200041] (-) TimerEvent: {}
+[0.300477] (-) TimerEvent: {}
+[0.401000] (-) TimerEvent: {}
+[0.501358] (-) TimerEvent: {}
+[0.601729] (-) TimerEvent: {}
+[0.702082] (-) TimerEvent: {}
+[0.802489] (-) TimerEvent: {}
+[0.902850] (-) TimerEvent: {}
+[1.003249] (-) TimerEvent: {}
+[1.103728] (-) TimerEvent: {}
+[1.204199] (-) TimerEvent: {}
+[1.304726] (-) TimerEvent: {}
+[1.405625] (-) TimerEvent: {}
+[1.506174] (-) TimerEvent: {}
+[1.606605] (-) TimerEvent: {}
+[1.707050] (-) TimerEvent: {}
+[1.807813] (-) TimerEvent: {}
+[1.908626] (-) TimerEvent: {}
+[1.976535] (system_engineering) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/system_engineering', 'build', '--build-base', '/home/teja/hyperhorizon_ws/build/system_engineering/build', 'install', '--record', '/home/teja/hyperhorizon_ws/build/system_engineering/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/teja/hyperhorizon_ws/src/system_engineering', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'teja', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code-insiders/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'HOME': '/home/teja', 'CHROME_DESKTOP': 'code-insiders.desktop', 'OLDPWD': '/home/teja/hyperhorizon_ws', 'TERM_PROGRAM_VERSION': '1.100.0-insider', 'DESKTOP_SESSION': 'ubuntu-xorg', 'NVM_BIN': '/home/teja/.nvm/versions/node/v18.20.5/bin', 'NVM_INC': '/home/teja/.nvm/versions/node/v18.20.5/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code-insiders.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code-insiders/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code-insiders/code-insiders', 'MANAGERPID': '1592', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2398', 'BUNDLED_DEBUGPY_PATH': '/home/teja/.vscode-insiders/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7508', 'NVM_DIR': '/home/teja/.nvm', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'teja', 'JOURNAL_STREAM': '8:17824', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'teja', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/teja/.local/bin:/home/teja/.nvm/versions/node/v18.20.5/bin:/home/teja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/teja/.vscode-insiders/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/teja/.config/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/teja-HP-EliteBook-840-G1:@/tmp/.ICE-unix/2305,unix/teja-HP-EliteBook-840-G1:/tmp/.ICE-unix/2305', 'INVOCATION_ID': '142e8ed80c884af3bf19a0123d5e5b19', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/teja/.vscode-insiders/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-712dc396571b7d42.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2923133738.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/teja/hyperhorizon_ws/build/system_engineering', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'PYTHONPATH': '/home/teja/hyperhorizon_ws/build/system_engineering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages:'}, 'shell': False}
+[2.008736] (-) TimerEvent: {}
+[2.109085] (-) TimerEvent: {}
+[2.209479] (-) TimerEvent: {}
+[2.309821] (-) TimerEvent: {}
+[2.410176] (-) TimerEvent: {}
+[2.417370] (system_engineering) StdoutLine: {'line': b'running egg_info\n'}
+[2.418880] (system_engineering) StdoutLine: {'line': b'creating ../../build/system_engineering/system_engineering.egg-info\n'}
+[2.432873] (system_engineering) StdoutLine: {'line': b'writing ../../build/system_engineering/system_engineering.egg-info/PKG-INFO\n'}
+[2.433241] (system_engineering) StdoutLine: {'line': b'writing dependency_links to ../../build/system_engineering/system_engineering.egg-info/dependency_links.txt\n'}
+[2.433524] (system_engineering) StdoutLine: {'line': b'writing entry points to ../../build/system_engineering/system_engineering.egg-info/entry_points.txt\n'}
+[2.434270] (system_engineering) StdoutLine: {'line': b'writing requirements to ../../build/system_engineering/system_engineering.egg-info/requires.txt\n'}
+[2.434504] (system_engineering) StdoutLine: {'line': b'writing top-level names to ../../build/system_engineering/system_engineering.egg-info/top_level.txt\n'}
+[2.434665] (system_engineering) StdoutLine: {'line': b"writing manifest file '../../build/system_engineering/system_engineering.egg-info/SOURCES.txt'\n"}
+[2.471270] (system_engineering) StdoutLine: {'line': b"reading manifest file '../../build/system_engineering/system_engineering.egg-info/SOURCES.txt'\n"}
+[2.472243] (system_engineering) StdoutLine: {'line': b"writing manifest file '../../build/system_engineering/system_engineering.egg-info/SOURCES.txt'\n"}
+[2.472503] (system_engineering) StdoutLine: {'line': b'running build\n'}
+[2.472667] (system_engineering) StdoutLine: {'line': b'running build_py\n'}
+[2.472866] (system_engineering) StdoutLine: {'line': b'creating /home/teja/hyperhorizon_ws/build/system_engineering/build\n'}
+[2.473066] (system_engineering) StdoutLine: {'line': b'creating /home/teja/hyperhorizon_ws/build/system_engineering/build/lib\n'}
+[2.473210] (system_engineering) StdoutLine: {'line': b'creating /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering\n'}
+[2.473431] (system_engineering) StdoutLine: {'line': b'copying system_engineering/command_publisher.py -> /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering\n'}
+[2.473611] (system_engineering) StdoutLine: {'line': b'copying system_engineering/__init__.py -> /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering\n'}
+[2.473748] (system_engineering) StdoutLine: {'line': b'copying system_engineering/system_monitor.py -> /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering\n'}
+[2.473886] (system_engineering) StdoutLine: {'line': b'copying system_engineering/command_processor.py -> /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering\n'}
+[2.474080] (system_engineering) StdoutLine: {'line': b'running install\n'}
+[2.480782] (system_engineering) StdoutLine: {'line': b'running install_lib\n'}
+[2.495437] (system_engineering) StdoutLine: {'line': b'creating /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering\n'}
+[2.495758] (system_engineering) StdoutLine: {'line': b'copying /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering/command_publisher.py -> /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering\n'}
+[2.496036] (system_engineering) StdoutLine: {'line': b'copying /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering/__init__.py -> /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering\n'}
+[2.496273] (system_engineering) StdoutLine: {'line': b'copying /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering/system_monitor.py -> /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering\n'}
+[2.496441] (system_engineering) StdoutLine: {'line': b'copying /home/teja/hyperhorizon_ws/build/system_engineering/build/lib/system_engineering/command_processor.py -> /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering\n'}
+[2.496793] (system_engineering) StdoutLine: {'line': b'byte-compiling /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering/command_publisher.py to command_publisher.cpython-310.pyc\n'}
+[2.497135] (system_engineering) StdoutLine: {'line': b'byte-compiling /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering/__init__.py to __init__.cpython-310.pyc\n'}
+[2.497428] (system_engineering) StdoutLine: {'line': b'byte-compiling /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering/system_monitor.py to system_monitor.cpython-310.pyc\n'}
+[2.497768] (system_engineering) StdoutLine: {'line': b'byte-compiling /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering/command_processor.py to command_processor.cpython-310.pyc\n'}
+[2.498008] (system_engineering) StdoutLine: {'line': b'running install_data\n'}
+[2.498218] (system_engineering) StdoutLine: {'line': b'creating /home/teja/hyperhorizon_ws/install/system_engineering/share/ament_index\n'}
+[2.498465] (system_engineering) StdoutLine: {'line': b'creating /home/teja/hyperhorizon_ws/install/system_engineering/share/ament_index/resource_index\n'}
+[2.498667] (system_engineering) StdoutLine: {'line': b'creating /home/teja/hyperhorizon_ws/install/system_engineering/share/ament_index/resource_index/packages\n'}
+[2.498887] (system_engineering) StdoutLine: {'line': b'copying resource/system_engineering -> /home/teja/hyperhorizon_ws/install/system_engineering/share/ament_index/resource_index/packages\n'}
+[2.499060] (system_engineering) StdoutLine: {'line': b'copying package.xml -> /home/teja/hyperhorizon_ws/install/system_engineering/share/system_engineering\n'}
+[2.499221] (system_engineering) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.510297] (-) TimerEvent: {}
+[2.514980] (system_engineering) StdoutLine: {'line': b'Copying ../../build/system_engineering/system_engineering.egg-info to /home/teja/hyperhorizon_ws/install/system_engineering/lib/python3.10/site-packages/system_engineering-0.0.0-py3.10.egg-info\n'}
+[2.516002] (system_engineering) StdoutLine: {'line': b'running install_scripts\n'}
+[2.604492] (system_engineering) StdoutLine: {'line': b'Installing system_monitor script to /home/teja/hyperhorizon_ws/install/system_engineering/lib/system_engineering\n'}
+[2.605129] (system_engineering) StdoutLine: {'line': b"writing list of installed files to '/home/teja/hyperhorizon_ws/build/system_engineering/install.log'\n"}
+[2.610413] (-) TimerEvent: {}
+[2.698038] (system_engineering) CommandEnded: {'returncode': 0}
+[2.710542] (-) TimerEvent: {}
+[2.811671] (-) TimerEvent: {}
+[2.894012] (system_engineering) JobEnded: {'identifier': 'system_engineering', 'rc': 0}
+[2.896637] (-) EventReactorShutdown: {}
